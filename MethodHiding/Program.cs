@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Creating the object of the derived class 
-            MyMember obj = new MyMember();
+            MyFamily obj = new MyMember();
 
             // Access the method of derived class 
             obj.Member();

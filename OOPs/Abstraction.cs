@@ -10,8 +10,10 @@ namespace OOPs
      * Abstraction: Focus on essential attributes and behaviors while hiding unnecessary implementation.
      * The complex implementation details of a system are hide behind a simplified interface or API.
      * abstraction is commonly achieved through several mechanisms:
-     * Abstract classes, methods and property
-     * Interface
+     * Abstract classes and Interfaces
+     * 
+     * Abstraction is the process of hiding the complex implementation details and showing only the necessary features of an object.
+     * This can be achieved using abstract classes and interfaces.
      */
 
     internal class Abstraction

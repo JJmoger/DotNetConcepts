@@ -1,6 +1,10 @@
 ﻿/* OOP - Object oriented programming - real world object
  * 
  */
+
+
+using OOPs.PolymorphismType;
+
 namespace OOPs
 {
     internal class Program
@@ -17,6 +21,18 @@ namespace OOPs
             Abstraction abstraction = new Abstraction();
             abstraction.AbstractionExample();
             abstraction.AbstractionExample2();
+
+            Polymorphism polymorphism = new Polymorphism();
+            polymorphism.OverridePolymorphismExample();
+            polymorphism.OverloadPolymorphismExample();
+            polymorphism.OperatorPolymorphismExample();
+
+            Inheritance inheritance = new Inheritance();
+            inheritance.InheritanceExampleExecutor();
+
+            Encapsulation encapsulation = new Encapsulation();
+            encapsulation.EncapsulationExampleExecutor();
+
         }
     }
 
