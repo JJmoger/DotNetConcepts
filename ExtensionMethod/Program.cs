@@ -16,28 +16,28 @@ namespace ExtensionMethod
         }
     }
 
-    static class JSONExtension
+    public static class JSONExtension
     {
 
-        public  static string SerializeObjects(this String str, object data)
+        public static string SerializeObjects(this String str, object data)
         {
             return JsonConvert.SerializeObject(data);
         }
     }
 
-    class BaseClass
+    public class BaseClass
     {
-        public void M1()
+        protected void M1()
         {
             Console.WriteLine("Method Name: M1");
         }
 
-        public void M2()
+        private protected void M2()
         {
             Console.WriteLine("Method Name: M2");
         }
 
-        public void M3()
+        protected internal void M3()
         {
             Console.WriteLine("Method Name: M3");
         }

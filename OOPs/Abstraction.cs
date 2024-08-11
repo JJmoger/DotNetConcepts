@@ -65,6 +65,7 @@ namespace OOPs
         public abstract void Refuel(decimal refuelAmount);
 
         public abstract decimal CalculatePurchase();
+      
     }
 
     public class IODispenser : FuelDispenser

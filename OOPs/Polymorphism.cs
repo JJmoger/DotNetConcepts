@@ -17,7 +17,7 @@ namespace OOPs.PolymorphismType
          * Runtime-time Polymorphism (Dynamic polymorphism) - Method Overriding
          * 
          * Method Overloading allows multiple methods in same class to have same name but different parameters.
-         * Operator Overloaing allows operator to be overloaded to define custom behaviour of thr opertor.
+         * Operator Overloaing allows operator to be overloaded to define custom behaviour of thier opertor.
          * Method Overriding allows to override parent class method implementation in child class.
          */
 
