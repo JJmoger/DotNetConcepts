@@ -21,7 +21,8 @@ namespace OOPs
             Abstraction abstraction = new Abstraction();
             abstraction.AbstractionExample();
             abstraction.AbstractionExample2();
-
+            abstraction.AbstractionExample2();
+            
             Polymorphism polymorphism = new Polymorphism();
             polymorphism.OverridePolymorphismExample();
             polymorphism.OverloadPolymorphismExample();
